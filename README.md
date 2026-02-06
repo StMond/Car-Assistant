@@ -32,7 +32,7 @@ You can order this project from PCBWay at a $5 discount by using my [referal lin
 - Broadcast a WiFi hotspot with internet access
 
 ## Software Requirements
-- ESPHome (2025.8.0 or later)
+- ESPHome (2025.12.0 or later)
 - Home Assistant server
 - WireGuard VPN server or an MQTT broker
 - USB <-> Serial driver ([`macOS`](https://github.com/Xinyuan-LilyGO/CH9102_Mac_Driver) | [`Linux`](https://github.com/gorgiaxx/CH34x-Driver-Linux) | [`Windows`](https://github.com/Xinyuan-LilyGO/CH9102_Driver))
@@ -68,11 +68,11 @@ Follow these steps to get your Car Assistant device up and running with ESPHome.
 
 ### ESPHome Integration Setup
 
-1. Install the ESPHome add-on in Home Assistant if not already installed:
-   - Go to `Settings` → `Add-ons` → `Add-on Store`
+1. Install the ESPHome app in Home Assistant if not already installed:
+   - Go to `Settings` → `Apps` → `Install app`
    - Search for `ESPHome`
    - Click `Install`
-2. Start the ESPHome add-on and verify that it's running
+2. Start the ESPHome app and verify that it's running
 3. Access the ESPHome dashboard through Home Assistant
 
 ### Setup Device
